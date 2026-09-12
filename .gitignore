@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Environment / secrets
+.env
+*.env
+
+# Temporary files
+*.tmp
+*.log
+
+# Development backups
+*_backup.py
+
+# Screenshots / temporary images
+ChatGPT Image*.png
+
+toolkit.py
