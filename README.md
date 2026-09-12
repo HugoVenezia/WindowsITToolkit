@@ -134,7 +134,9 @@ For running from source:
 
 \- ReportLab
 
+## Screenshot
 
+![Windows IT Toolkit](screenshot.png)
 
 \## Run from Source
 
