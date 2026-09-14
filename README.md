@@ -156,3 +156,13 @@ Install dependencies:
 
 ```cmd
 pip install psutil reportlab
+
+## License
+
+Windows IT Toolkit is distributed under a custom proprietary license.
+
+Personal, educational, evaluation, and internal organizational use is permitted.
+
+Commercial redistribution, rebranding, resale, or incorporation into commercial products requires prior written permission from the copyright holder.
+
+See the [LICENSE](LICENSE) file for full terms.
