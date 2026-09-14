@@ -1,0 +1,53 @@
+Windows IT Toolkit License
+Version 1.0
+
+Copyright (c) 2026 Alperen Epik
+All rights reserved.
+
+1. Permission
+
+Permission is granted to individuals and organizations to use Windows IT Toolkit
+free of charge for personal, educational, evaluation, and internal IT diagnostic
+purposes.
+
+2. Source Code
+
+The source code may be viewed, studied, and modified for personal, educational,
+evaluation, or internal organizational use.
+
+3. Restrictions
+
+Without prior written permission from the copyright holder, you may not:
+
+- Sell, sublicense, rent, or commercially redistribute the software or its source code.
+- Repackage or rebrand the software for commercial distribution.
+- Distribute modified versions of the software to third parties.
+- Incorporate substantial portions of the source code into a commercial product or service.
+- Remove or alter copyright, license, or attribution notices.
+
+4. Commercial Licensing
+
+Commercial redistribution, incorporation into commercial products or services,
+OEM distribution, and other commercial uses not permitted by this license require
+separate written permission or a commercial license from the copyright holder.
+
+5. Contributions
+
+Unless otherwise agreed in writing, submission of a contribution does not transfer
+ownership of the Windows IT Toolkit project or grant commercial redistribution
+rights to the contributor.
+
+6. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+7. Contact
+
+For commercial licensing, redistribution permissions, or other licensing inquiries,
+please contact the project owner through the Windows IT Toolkit GitHub repository.
