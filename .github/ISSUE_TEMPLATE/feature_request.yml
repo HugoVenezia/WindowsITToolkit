@@ -1,0 +1,89 @@
+name: Feature Request
+description: Suggest an improvement or new capability for Windows IT Toolkit
+title: "[FEATURE] "
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Windows IT Toolkit.
+
+        Please describe the feature as clearly as possible and explain the real-world problem it would solve.
+
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: Feature Description
+      description: What feature would you like to see?
+      placeholder: Describe the requested feature...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_to_solve
+    attributes:
+      label: Problem It Would Solve
+      description: What problem, limitation, or repetitive task would this feature help solve?
+      placeholder: Explain the problem here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Real-World Use Case
+      description: Describe how you would use this feature in a real IT support or diagnostic scenario.
+      placeholder: |
+        Example:
+        As a help desk technician, I would use this feature when...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: related_area
+    attributes:
+      label: Related Area
+      description: Which part of Windows IT Toolkit is this request related to?
+      options:
+        - Quick Diagnostic
+        - System Information
+        - Network Information
+        - Ping Test
+        - DNS Test
+        - TCP Port Test
+        - PC Health Check
+        - Smart Network Diagnostics
+        - PDF Report
+        - User Interface
+        - Installation / Packaging
+        - New Diagnostic Feature
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important would this feature be in your workflow?
+      options:
+        - Low - Nice to have
+        - Medium - Would be useful
+        - High - Important for my workflow
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current Workaround
+      description: How do you currently handle this task without Windows IT Toolkit?
+      placeholder: Describe your current method, command, or tool.
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: Add screenshots, examples, related tools, or any other useful information.
