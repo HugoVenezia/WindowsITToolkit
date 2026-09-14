@@ -1,0 +1,116 @@
+name: Bug Report
+description: Report a problem with Windows IT Toolkit
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Windows IT Toolkit.
+
+        Please provide as much detail as possible.
+        Do not include passwords, credentials, private keys, or other sensitive information.
+
+  - type: input
+    id: toolkit_version
+    attributes:
+      label: Windows IT Toolkit Version
+      description: Which version are you using?
+      placeholder: v1.2
+    validations:
+      required: true
+
+  - type: input
+    id: windows_version
+    attributes:
+      label: Windows Version
+      description: Enter your Windows version.
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affected_feature
+    attributes:
+      label: Affected Feature
+      description: Which part of Windows IT Toolkit caused the problem?
+      options:
+        - Quick Diagnostic
+        - System Information
+        - Network Information
+        - Ping Test
+        - DNS Test
+        - TCP Port Test
+        - PC Health Check
+        - Smart Network Diagnostics
+        - PDF Report
+        - Application startup
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_description
+    attributes:
+      label: Problem Description
+      description: Clearly describe what happened.
+      placeholder: Describe the problem here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Explain how we can reproduce the problem.
+      placeholder: |
+        1. Open Windows IT Toolkit
+        2. Click ...
+        3. Enter ...
+        4. The error appears
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: Expected Result
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_result
+    attributes:
+      label: Actual Result
+      description: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: error_message
+    attributes:
+      label: Error Message
+      description: Paste the error message here if one was displayed.
+      render: shell
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: You can drag and drop screenshots here if they help explain the problem.
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: Add any other information that may help diagnose the issue.
+
+  - type: checkboxes
+    id: privacy_confirmation
+    attributes:
+      label: Privacy Confirmation
+      options:
+        - label: I have removed passwords, credentials, private keys, and other sensitive information from this report.
+          required: true
